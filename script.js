@@ -4,7 +4,7 @@
  * Ejemplo Colombia: 573001234567
  */
 const propertyConfig = {
-  whatsappNumber: "573015360466",
+  whatsappNumber: process.env.WHATSAPP_NUMBER,
   whatsappMessage:
     "Hola, estoy interesado en el apartamento en venta del Conjunto Mirador de La Julia.",
 };

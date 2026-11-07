@@ -6,44 +6,49 @@
     <meta name="theme-color" content="#1f4035" />
     <meta
       name="description"
-      content="Apartamento en venta en La Julia, Montería. 74 m², 3 habitaciones, 2 baños, balcón y parqueadero privado en el Conjunto Residencial Mirador de La Julia."
+      content="Apartamento en venta por $200.000.000 COP en La Julia, Montería, Córdoba, Colombia. 74 m², 3 habitaciones, 2 baños, balcón y parqueadero privado."
     />
     <meta property="og:type" content="website" />
     <meta property="og:locale" content="es_CO" />
-    <meta property="og:url" content="https://apartamento-la-julia.vercel.app/" />
+    <meta property="og:url" content="https://casasenventa.vercel.app/" />
     <meta
       property="og:title"
       content="Apartamento en venta en La Julia | Montería"
     />
     <meta
       property="og:description"
-      content="Conoce este apartamento de 74 m² con 3 habitaciones, 2 baños y parqueadero privado."
+      content="Conoce este apartamento de $200.000.000 COP, 74 m², 3 habitaciones, 2 baños y parqueadero privado."
     />
     <meta
       property="og:image"
       content="img/home1/WhatsApp Image 2026-11-06 at 4.59.52 PM (2).jpeg"
     />
     <meta name="twitter:card" content="summary_large_image" />
-    <link rel="canonical" href="https://apartamento-la-julia.vercel.app/" />
-    <title>Apartamento en venta en La Julia, Montería | 74 m²</title>
+    <link rel="canonical" href="https://casasenventa.vercel.app/" />
+    <title>Apartamento en venta en La Julia, Montería | $200 millones</title>
     <link rel="stylesheet" href="styles.css" />
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
         "@type": "Residence",
-        "url": "https://apartamento-la-julia.vercel.app/",
+        "url": "https://casasenventa.vercel.app/",
         "name": "Apartamento en venta en La Julia, Montería",
-        "description": "Apartamento de 74 m² con 3 habitaciones, 2 baños, balcón y parqueadero privado en el Conjunto Residencial Mirador de La Julia.",
+        "description": "Apartamento en venta por $200.000.000 COP, con 74 m², 3 habitaciones, 2 baños, balcón y parqueadero privado en el Conjunto Residencial Mirador de La Julia.",
         "image": [
           "img/home1/WhatsApp Image 2026-11-06 at 4.59.52 PM (2).jpeg",
           "img/home1/WhatsApp Image 2026-11-06 at 5.00.08 PM.jpeg"
         ],
         "address": {
           "@type": "PostalAddress",
-          "streetAddress": "Carrera 12 #16B-25",
+          "streetAddress": "La Julia",
           "addressLocality": "Montería",
           "addressRegion": "Córdoba",
           "addressCountry": "CO"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 8.74575,
+          "longitude": -75.883999
         },
         "numberOfRooms": 3,
         "numberOfBathroomsTotal": 2,
@@ -51,6 +56,13 @@
           "@type": "QuantitativeValue",
           "value": 74,
           "unitCode": "MTK"
+        },
+        "offers": {
+          "@type": "Offer",
+          "url": "https://casasenventa.vercel.app/",
+          "price": "200000000",
+          "priceCurrency": "COP",
+          "availability": "https://schema.org/InStock"
         },
         "amenityFeature": [
           {
@@ -117,6 +129,10 @@
               Julia, pensado para vivir con comodidad y disfrutar de espacios
               comunes para toda la familia.
             </p>
+            <div class="hero-price">
+              <span>Precio de venta</span>
+              <strong>$200.000.000 <small>COP</small></strong>
+            </div>
             <div class="hero-actions">
               <a class="button button-primary" href="#contacto"
                 >Quiero conocerlo <span>↗</span></a
@@ -394,14 +410,15 @@
             <p class="eyebrow">Ubicación</p>
             <h2>Vive en La Julia, Montería.</h2>
             <p>
-              El apartamento se encuentra en el barrio La Julia, dentro del
-              Conjunto Residencial Mirador de La Julia.
+              El apartamento se encuentra en el barrio La Julia, Montería,
+              Córdoba, Colombia, dentro del Conjunto Residencial Mirador de La
+              Julia.
             </p>
             <div class="address-card">
               <span class="pin-icon">⌖</span>
               <div>
                 <strong>Conjunto Residencial Mirador de La Julia</strong>
-                <span>Carrera 12 #16B-25 · La Julia, Montería</span>
+                <span>La Julia · Montería, Córdoba · Colombia</span>
               </div>
             </div>
             <a
@@ -413,13 +430,18 @@
               Ver ubicación en Google Maps <span>↗</span>
             </a>
           </div>
-          <div class="map-card" aria-label="Mapa de ubicación aproximada">
-            <div class="map-grid"></div>
-            <div class="map-road road-one"></div>
-            <div class="map-road road-two"></div>
-            <div class="map-marker"><span></span></div>
-            <div class="map-label">Mirador de La Julia</div>
-            <div class="map-note">Ubicación aproximada</div>
+          <div
+            class="map-card"
+            aria-label="Mapa de Google Maps con la ubicación del conjunto"
+          >
+            <iframe
+              class="map-frame"
+              title="Ubicación del Conjunto Residencial Mirador de La Julia en Montería"
+              src="https://www.google.com/maps?q=8.74575,-75.883999&z=16&output=embed"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              allowfullscreen
+            ></iframe>
           </div>
         </div>
       </section>
@@ -453,7 +475,11 @@
             <p>
               Estoy disponible para compartir el precio y coordinar una visita.
             </p>
-            <a class="button button-primary" href="#contacto-info" data-whatsapp>
+            <a
+              class="button button-primary"
+              href="#contacto-info"
+              data-whatsapp
+            >
               Escribir por WhatsApp <span>↗</span>
             </a>
             <div class="contact-edit-note contact-number">
