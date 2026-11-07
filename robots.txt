@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# Actualiza esta dirección con la URL final de tu proyecto si eliges otro nombre en Vercel.
+Sitemap: https://apartamento-la-julia.vercel.app/sitemap.xml

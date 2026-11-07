@@ -1,0 +1,44 @@
+Ubicación: 
+8°44'44.7"N 75°53'02.4"W
+
+dirección: 
+carrera 12 #16b-25 
+
+nombre conjunto: 
+Conjuto Residencial Mirador de La Julia
+
+barrio: 
+la julia 
+
+numero de bloque: 
+2
+
+Numero de Apartamento: 
+302
+
+numero de baños: 
+2 baños (1 en habitación principal) 
+
+numero de habitaciones:
+3 (principal con baño)
+
+metros cuadrados: 
+74m
+
+espacios:
+sala
+comedor
+mini cuarto de start
+cocina 
+lavadero
+balcon 
+
+
+conjunto: 
+zonas comunes:
+	piscina
+	Parque infantil
+	salón social
+
+adicional: 
+	Parquedero Privado con escritura (propiedad)
