@@ -4,9 +4,11 @@
  * Ejemplo Colombia: 573001234567
  */
 const propertyConfig = {
-  whatsappNumber: process.env.WHATSAPP_NUMBER,
+  // Esta es una página estática: las variables process.env no existen en el navegador.
+  // WhatsApp necesita el código de país, sin espacios ni símbolos.
+  whatsappNumber: "573008028577",
   whatsappMessage:
-    "Hola, estoy interesado en el apartamento en venta del Conjunto Mirador de La Julia.",
+    "Hola, estoy interesado en una de las propiedades publicadas en la página.",
 };
 
 const menuToggle = document.querySelector(".menu-toggle");
@@ -60,13 +62,15 @@ galleryItems.forEach((item) => {
   });
 });
 
-lightboxClose.addEventListener("click", closeLightbox);
-lightbox.addEventListener("click", (event) => {
-  if (event.target === lightbox) closeLightbox();
-});
-document.addEventListener("keydown", (event) => {
-  if (event.key === "Escape" && lightbox.classList.contains("is-visible"))
-    closeLightbox();
-});
+if (lightbox && lightboxImage && lightboxClose) {
+  lightboxClose.addEventListener("click", closeLightbox);
+  lightbox.addEventListener("click", (event) => {
+    if (event.target === lightbox) closeLightbox();
+  });
+  document.addEventListener("keydown", (event) => {
+    if (event.key === "Escape" && lightbox.classList.contains("is-visible"))
+      closeLightbox();
+  });
+}
 
 document.querySelector("#current-year").textContent = new Date().getFullYear();

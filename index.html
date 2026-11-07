@@ -6,86 +6,55 @@
     <meta name="theme-color" content="#1f4035" />
     <meta
       name="description"
-      content="Apartamento en venta por $200.000.000 COP en La Julia, Montería, Córdoba, Colombia. 74 m², 3 habitaciones, 2 baños, balcón y parqueadero privado."
+      content="Encuentra apartamentos en venta en Montería, Córdoba. Conoce propiedades disponibles, precios, fotografías, características y ubicación."
     />
     <meta property="og:type" content="website" />
     <meta property="og:locale" content="es_CO" />
     <meta property="og:url" content="https://casasenventa.vercel.app/" />
     <meta
       property="og:title"
-      content="Apartamento en venta en La Julia | Montería"
+      content="Apartamentos en venta en Montería | Mirador"
     />
     <meta
       property="og:description"
-      content="Conoce este apartamento de $200.000.000 COP, 74 m², 3 habitaciones, 2 baños y parqueadero privado."
+      content="Explora apartamentos disponibles en Montería, Córdoba, con fotografías, características y contacto directo por WhatsApp."
     />
     <meta
       property="og:image"
-      content="img/home1/WhatsApp Image 2026-11-06 at 4.59.52 PM (2).jpeg"
+      content="https://casasenventa.vercel.app/img/home2/WhatsApp%20Image%202026-11-07%20at%202.04.28%20PM%20(1).jpeg"
     />
     <meta name="twitter:card" content="summary_large_image" />
     <link rel="canonical" href="https://casasenventa.vercel.app/" />
-    <title>Apartamento en venta en La Julia, Montería | $200 millones</title>
+    <title>Apartamentos en venta en Montería | Mirador Propiedades</title>
     <link rel="stylesheet" href="styles.css" />
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
-        "@type": "Residence",
+        "@type": "CollectionPage",
+        "name": "Apartamentos en venta en Montería",
         "url": "https://casasenventa.vercel.app/",
-        "name": "Apartamento en venta en La Julia, Montería",
-        "description": "Apartamento en venta por $200.000.000 COP, con 74 m², 3 habitaciones, 2 baños, balcón y parqueadero privado en el Conjunto Residencial Mirador de La Julia.",
-        "image": [
-          "img/home1/WhatsApp Image 2026-11-06 at 4.59.52 PM (2).jpeg",
-          "img/home1/WhatsApp Image 2026-11-06 at 5.00.08 PM.jpeg"
-        ],
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "La Julia",
-          "addressLocality": "Montería",
-          "addressRegion": "Córdoba",
-          "addressCountry": "CO"
+        "description": "Propiedades disponibles en venta en Montería, Córdoba, Colombia.",
+        "about": {
+          "@type": "Place",
+          "name": "Montería, Córdoba, Colombia"
         },
-        "geo": {
-          "@type": "GeoCoordinates",
-          "latitude": 8.74575,
-          "longitude": -75.883999
-        },
-        "numberOfRooms": 3,
-        "numberOfBathroomsTotal": 2,
-        "floorSize": {
-          "@type": "QuantitativeValue",
-          "value": 74,
-          "unitCode": "MTK"
-        },
-        "offers": {
-          "@type": "Offer",
-          "url": "https://casasenventa.vercel.app/",
-          "price": "200000000",
-          "priceCurrency": "COP",
-          "availability": "https://schema.org/InStock"
-        },
-        "amenityFeature": [
-          {
-            "@type": "LocationFeatureSpecification",
-            "name": "Piscina",
-            "value": true
-          },
-          {
-            "@type": "LocationFeatureSpecification",
-            "name": "Parque infantil",
-            "value": true
-          },
-          {
-            "@type": "LocationFeatureSpecification",
-            "name": "Salón social",
-            "value": true
-          },
-          {
-            "@type": "LocationFeatureSpecification",
-            "name": "Parqueadero privado",
-            "value": true
-          }
-        ]
+        "mainEntity": {
+          "@type": "ItemList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Apartamento en venta en La Julia, Montería",
+              "url": "https://casasenventa.vercel.app/propiedades/apartamento-mirador.html"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Apartamento en venta en Conjunto Coral, Montería",
+              "url": "https://casasenventa.vercel.app/propiedades/apartamento-coral.html"
+            }
+          ]
+        }
       }
     </script>
   </head>
@@ -94,10 +63,9 @@
       <div class="container nav-wrap">
         <a class="brand" href="#inicio" aria-label="Inicio">
           <span class="brand-mark">M</span>
-          <span>
-            <strong>Mirador</strong>
-            <small>La Julia · Montería</small>
-          </span>
+          <span
+            ><strong>Mirador</strong><small>Propiedades · Montería</small></span
+          >
         </a>
         <button
           class="menu-toggle"
@@ -109,339 +77,181 @@
           <span class="sr-only">Abrir menú</span>
         </button>
         <nav class="main-nav" id="main-nav" aria-label="Navegación principal">
-          <a href="#apartamento">El apartamento</a>
-          <a href="#galeria">Galería</a>
-          <a href="#conjunto">El conjunto</a>
-          <a href="#ubicacion">Ubicación</a>
-          <a class="nav-cta" href="#contacto">Consultar</a>
+          <a href="#propiedades">Propiedades</a>
+          <a href="#nosotros">Sobre nosotros</a>
+          <a href="#contacto">Contacto</a>
         </nav>
       </div>
     </header>
 
     <main>
-      <section class="hero section-padding">
-        <div class="container hero-grid">
-          <div class="hero-copy">
-            <p class="eyebrow"><span></span> Propiedad disponible</p>
-            <h1>Tu próximo hogar está en <em>La Julia</em></h1>
-            <p class="hero-lead">
-              Apartamento de 74 m² en el Conjunto Residencial Mirador de La
-              Julia, pensado para vivir con comodidad y disfrutar de espacios
-              comunes para toda la familia.
+      <section class="landing-hero section-padding">
+        <div class="container landing-hero-grid">
+          <div class="landing-hero-copy">
+            <p class="eyebrow"><span></span> Propiedades en Montería</p>
+            <h1>Encuentra un lugar para llamar <em>hogar.</em></h1>
+            <p class="landing-lead">
+              Explora apartamentos disponibles en Montería, Córdoba, con
+              información clara, fotografías reales y contacto directo para
+              agendar tu visita.
             </p>
-            <div class="hero-price">
-              <span>Precio de venta</span>
-              <strong>$200.000.000 <small>COP</small></strong>
-            </div>
             <div class="hero-actions">
-              <a class="button button-primary" href="#contacto"
-                >Quiero conocerlo <span>↗</span></a
+              <a class="button button-primary" href="#propiedades"
+                >Ver propiedades <span>↓</span></a
               >
-              <a class="button button-quiet" href="#galeria"
-                >Ver fotografías <span>↓</span></a
+              <a class="button button-quiet" href="#contacto" data-whatsapp
+                >Hablar por WhatsApp <span>↗</span></a
               >
             </div>
-            <div class="hero-meta" aria-label="Características principales">
-              <div><strong>74</strong><span>m²</span></div>
-              <div><strong>3</strong><span>habitaciones</span></div>
-              <div><strong>2</strong><span>baños</span></div>
+            <div class="landing-stats">
+              <div><strong>02</strong><span>propiedades disponibles</span></div>
+              <div><strong>100%</strong><span>contacto directo</span></div>
             </div>
           </div>
-          <div class="hero-image-wrap">
-            <div class="hero-image-card">
+          <div class="landing-hero-visual">
+            <div class="landing-image-main">
               <img
-                src="img/home1/WhatsApp Image 2026-11-06 at 4.59.52 PM (2).jpeg"
-                alt="Cocina del apartamento en venta en La Julia"
+                src="img/home2/WhatsApp Image 2026-11-07 at 2.04.28 PM (1).jpeg"
+                alt="Sala y comedor de apartamento en venta en Montería"
               />
-              <div class="hero-image-label">
-                <span class="dot"></span> Mirador de La Julia
-              </div>
             </div>
-            <div class="hero-stamp" aria-hidden="true">
-              <span>Vive</span>
-              <strong>bien</strong>
-              <small>en La Julia</small>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="trust-strip">
-        <div class="container trust-grid">
-          <div>
-            <span class="trust-icon">⌂</span><span>Conjunto residencial</span>
-          </div>
-          <div>
-            <span class="trust-icon">▣</span><span>Parqueadero privado</span>
-          </div>
-          <div><span class="trust-icon">⌁</span><span>Zonas comunes</span></div>
-          <div>
-            <span class="trust-icon">●</span><span>Excelente ubicación</span>
-          </div>
-        </div>
-      </section>
-
-      <section class="section-padding intro-section" id="apartamento">
-        <div class="container two-column">
-          <div>
-            <p class="eyebrow">El apartamento</p>
-            <h2>Un espacio práctico para comenzar una nueva etapa.</h2>
-          </div>
-          <div class="intro-copy">
-            <p>
-              Este apartamento combina una distribución funcional con la
-              tranquilidad de vivir dentro de un conjunto residencial. Sus 74 m²
-              cuentan con sala, comedor, cocina, lavadero, balcón y tres
-              habitaciones.
-            </p>
-            <p>
-              La habitación principal tiene baño privado y el inmueble incluye
-              un parqueadero privado con escritura propia.
-            </p>
-          </div>
-        </div>
-      </section>
-
-      <section class="section-padding details-section">
-        <div class="container">
-          <div class="section-heading">
-            <div>
-              <p class="eyebrow">Detalles que importan</p>
-              <h2>Todo lo que necesitas, en un solo lugar.</h2>
-            </div>
-            <p class="section-note">Apartamento 302 · Bloque 2</p>
-          </div>
-          <div class="details-grid">
-            <article class="detail-card featured-detail">
-              <span class="detail-number">01</span>
-              <span class="detail-icon">▦</span>
-              <h3>Distribución</h3>
-              <p>
-                Sala, comedor, cocina, lavadero, balcón y espacio adicional.
-              </p>
-            </article>
-            <article class="detail-card">
-              <span class="detail-number">02</span>
-              <span class="detail-icon">⌂</span>
-              <h3>Habitaciones</h3>
-              <p>3 habitaciones, incluida una principal con baño privado.</p>
-            </article>
-            <article class="detail-card">
-              <span class="detail-number">03</span>
-              <span class="detail-icon">＋</span>
-              <h3>Baños</h3>
-              <p>2 baños para mayor comodidad en la vida diaria.</p>
-            </article>
-            <article class="detail-card">
-              <span class="detail-number">04</span>
-              <span class="detail-icon">▤</span>
-              <h3>Parqueadero</h3>
-              <p>Parqueadero privado con escritura propia.</p>
-            </article>
-          </div>
-        </div>
-      </section>
-
-      <section class="section-padding gallery-section" id="galeria">
-        <div class="container">
-          <div class="section-heading gallery-heading">
-            <div>
-              <p class="eyebrow">Galería</p>
-              <h2>Conócelo por dentro y por fuera.</h2>
-            </div>
-            <p class="section-note">
-              Haz clic en una imagen para verla en detalle.
-            </p>
-          </div>
-          <div class="gallery-grid" id="gallery-grid">
-            <button
-              class="gallery-item gallery-item-large"
-              type="button"
-              data-image="img/home1/WhatsApp Image 2026-11-06 at 4.59.52 PM (2).jpeg"
-              data-alt="Cocina del apartamento"
-            >
-              <img
-                src="img/home1/WhatsApp Image 2026-11-06 at 4.59.52 PM (2).jpeg"
-                alt="Cocina del apartamento"
-                loading="lazy"
-              />
-              <span>Cuarto</span>
-            </button>
-            <button
-              class="gallery-item"
-              type="button"
-              data-image="img/home1/WhatsApp Image 2026-11-06 at 4.59.52 PM.jpeg"
-              data-alt="Espacio interior del apartamento"
-            >
-              <img
-                src="img/home1/WhatsApp Image 2026-11-06 at 4.59.52 PM.jpeg"
-                alt="Espacio interior del apartamento"
-                loading="lazy"
-              />
-              <span>Mini sala de start</span>
-            </button>
-            <button
-              class="gallery-item"
-              type="button"
-              data-image="img/home1/WhatsApp Image 2026-11-06 at 4.59.52 PM (1).jpeg"
-              data-alt="Habitación del apartamento"
-            >
-              <img
-                src="img/home1/WhatsApp Image 2026-11-06 at 4.59.52 PM (1).jpeg"
-                alt="Habitación del apartamento"
-                loading="lazy"
-              />
-              <span>Entrada</span>
-            </button>
-            <button
-              class="gallery-item"
-              type="button"
-              data-image="img/home1/WhatsApp Image 2026-11-06 at 4.59.52 PM (3).jpeg"
-              data-alt="Habitación del apartamento"
-            >
-              <img
-                src="img/home1/WhatsApp Image 2026-11-06 at 4.59.52 PM (3).jpeg"
-                alt="Habitación del apartamento"
-                loading="lazy"
-              />
-              <span>Parqueadero Propio</span>
-            </button>
-            <button
-              class="gallery-item"
-              type="button"
-              data-image="img/home1/WhatsApp Image 2026-11-06 at 4.59.52 PM (4).jpeg"
-              data-alt="Interior del apartamento"
-            >
-              <img
-                src="img/home1/WhatsApp Image 2026-11-06 at 4.59.52 PM (4).jpeg"
-                alt="Interior del apartamento"
-                loading="lazy"
-              />
-              <span>Corredor</span>
-            </button>
-            <button
-              class="gallery-item gallery-item-wide"
-              type="button"
-              data-image="img/home1/WhatsApp Image 2026-11-06 at 5.00.08 PM.jpeg"
-              data-alt="Piscina del Conjunto Residencial Mirador de La Julia"
-            >
+            <div class="landing-image-small">
               <img
                 src="img/home1/WhatsApp Image 2026-11-06 at 5.00.08 PM.jpeg"
                 alt="Piscina del Conjunto Residencial Mirador de La Julia"
-                loading="lazy"
               />
-              <span>Piscina del conjunto</span>
-            </button>
-            <button
-              class="gallery-item"
-              type="button"
-              data-image="img/home1/WhatsApp Image 2026-11-06 at 5.00.08 PM (1).jpeg"
-              data-alt="Zona común del conjunto"
-            >
-              <img
-                src="img/home1/WhatsApp Image 2026-11-06 at 5.00.08 PM (1).jpeg"
-                alt="Zona común del conjunto"
-                loading="lazy"
-              />
-              <span>Entrada al Bloque</span>
-            </button>
-            <button
-              class="gallery-item"
-              type="button"
-              data-image="img/home1/WhatsApp Image 2026-11-06 at 5.00.08 PM (2).jpeg"
-              data-alt="Zona exterior del conjunto"
-            >
-              <img
-                src="img/home1/WhatsApp Image 2026-11-06 at 5.00.08 PM (2).jpeg"
-                alt="Zona exterior del conjunto"
-                loading="lazy"
-              />
-              <span>Entrada Conjunto</span>
-            </button>
-            <button
-              class="gallery-item"
-              type="button"
-              data-image="img/home1/WhatsApp Image 2026-11-06 at 4.59.51 PM.jpeg"
-              data-alt="Entrada del apartamento 302"
-            >
-              <img
-                src="img/home1/WhatsApp Image 2026-11-06 at 4.59.51 PM.jpeg"
-                alt="Entrada del apartamento 302"
-                loading="lazy"
-              />
-              <span>Cocina</span>
-            </button>
-          </div>
-        </div>
-      </section>
-
-      <section class="section-padding amenities-section" id="conjunto">
-        <div class="container amenities-layout">
-          <div class="amenities-image">
-            <img
-              src="img/home1/WhatsApp Image 2026-11-06 at 5.00.08 PM.jpeg"
-              alt="Piscina del Conjunto Residencial Mirador de La Julia"
-              loading="lazy"
-            />
-            <span class="image-caption"
-              >Espacios para disfrutar en familia</span
-            >
-          </div>
-          <div class="amenities-copy">
-            <p class="eyebrow">El conjunto</p>
-            <h2>Más que un apartamento, un lugar para disfrutar.</h2>
-            <p>
-              El Conjunto Residencial Mirador de La Julia ofrece espacios
-              comunes para descansar, compartir y disfrutar sin salir de casa.
-            </p>
-            <ul class="check-list">
-              <li><span>✓</span> Piscina</li>
-              <li><span>✓</span> Parque infantil</li>
-              <li><span>✓</span> Salón social</li>
-              <li><span>✓</span> Parqueadero privado con escritura</li>
-            </ul>
-          </div>
-        </div>
-      </section>
-
-      <section class="section-padding location-section" id="ubicacion">
-        <div class="container location-layout">
-          <div class="location-copy">
-            <p class="eyebrow">Ubicación</p>
-            <h2>Vive en La Julia, Montería.</h2>
-            <p>
-              El apartamento se encuentra en el barrio La Julia, Montería,
-              Córdoba, Colombia, dentro del Conjunto Residencial Mirador de La
-              Julia.
-            </p>
-            <div class="address-card">
-              <span class="pin-icon">⌖</span>
-              <div>
-                <strong>Conjunto Residencial Mirador de La Julia</strong>
-                <span>La Julia · Montería, Córdoba · Colombia</span>
-              </div>
             </div>
+            <div class="landing-location-badge">
+              <span class="dot"></span> Montería · Córdoba
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="landing-intro" id="nosotros">
+        <div class="container landing-intro-grid">
+          <p class="eyebrow">
+            <span></span> El comienzo de tu próxima historia
+          </p>
+          <p>
+            Reunimos propiedades con información completa para que puedas
+            comparar, conocer cada espacio y contactar directamente para
+            resolver tus preguntas.
+          </p>
+        </div>
+      </section>
+
+      <section class="section-padding properties-section" id="propiedades">
+        <div class="container">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">Propiedades disponibles</p>
+              <h2>Elige el espacio que va contigo.</h2>
+            </div>
+            <p class="section-note">Montería · Córdoba · Colombia</p>
+          </div>
+          <div class="property-list-grid">
             <a
-              class="text-link"
-              href="https://www.google.com/maps/search/?api=1&query=8.74575,-75.883999"
-              target="_blank"
-              rel="noopener noreferrer"
+              class="property-card property-card-compact"
+              href="propiedades/apartamento-mirador.html"
             >
-              Ver ubicación en Google Maps <span>↗</span>
+              <div class="property-card-image">
+                <img
+                  src="img/home1/WhatsApp Image 2026-11-06 at 4.59.51 PM (4).jpeg"
+                  alt="Cocina del apartamento en venta en La Julia"
+                  loading="lazy"
+                />
+                <span class="property-card-badge">Disponible</span>
+              </div>
+              <div class="property-card-content">
+                <div>
+                  <p class="eyebrow">Mirador de La Julia</p>
+                  <h3>Apartamento en venta en La Julia</h3>
+                  <p class="property-card-location">La Julia · Montería</p>
+                  <p class="property-card-price">
+                    $200.000.000 <small>COP</small>
+                  </p>
+                </div>
+                <div class="property-card-footer">
+                  <div class="property-card-specs">
+                    <span>74 m²</span><span>3 habitaciones</span
+                    ><span>2 baños</span>
+                  </div>
+                  <span class="property-card-link"
+                    >Ver detalles <strong>↗</strong></span
+                  >
+                </div>
+              </div>
+            </a>
+            <a
+              class="property-card property-card-compact"
+              href="propiedades/apartamento-coral.html"
+            >
+              <div class="property-card-image">
+                <img
+                  src="img/home2/WhatsApp Image 2026-11-07 at 2.04.28 PM (1).jpeg"
+                  alt="Sala y comedor del apartamento en Conjunto Coral"
+                  loading="lazy"
+                />
+                <span class="property-card-badge">Disponible</span>
+              </div>
+              <div class="property-card-content">
+                <div>
+                  <p class="eyebrow">Conjunto Residencial Coral</p>
+                  <h3>Apartamento en venta en Montería</h3>
+                  <p class="property-card-location">Montería · Córdoba</p>
+                  <p class="property-card-price">
+                    $200.000.000 <small>COP</small>
+                  </p>
+                </div>
+                <div class="property-card-footer">
+                  <div class="property-card-specs">
+                    <span>53,7 m²</span><span>2 habitaciones</span
+                    ><span>2 baños</span>
+                  </div>
+                  <span class="property-card-link"
+                    >Ver detalles <strong>↗</strong></span
+                  >
+                </div>
+              </div>
             </a>
           </div>
-          <div
-            class="map-card"
-            aria-label="Mapa de Google Maps con la ubicación del conjunto"
-          >
-            <iframe
-              class="map-frame"
-              title="Ubicación del Conjunto Residencial Mirador de La Julia en Montería"
-              src="https://www.google.com/maps?q=8.74575,-75.883999&z=16&output=embed"
-              loading="lazy"
-              referrerpolicy="no-referrer-when-downgrade"
-              allowfullscreen
-            ></iframe>
+        </div>
+      </section>
+
+      <section class="landing-benefits section-padding">
+        <div class="container">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">Una forma sencilla de buscar</p>
+              <h2>Información para decidir con tranquilidad.</h2>
+            </div>
+          </div>
+          <div class="landing-benefits-grid">
+            <article>
+              <span>01</span>
+              <h3>Conoce cada propiedad</h3>
+              <p>
+                Fotografías, características, espacios y zonas comunes en una
+                ficha completa.
+              </p>
+            </article>
+            <article>
+              <span>02</span>
+              <h3>Compara tus opciones</h3>
+              <p>
+                Revisa áreas, habitaciones, baños, precios y ubicación de forma
+                rápida.
+              </p>
+            </article>
+            <article>
+              <span>03</span>
+              <h3>Contacta directamente</h3>
+              <p>
+                Escribe por WhatsApp para solicitar información o agendar una
+                visita.
+              </p>
+            </article>
           </div>
         </div>
       </section>
@@ -449,43 +259,17 @@
       <section class="contact-section" id="contacto">
         <div class="container contact-inner">
           <div>
-            <p class="eyebrow eyebrow-light">¿Te interesa?</p>
+            <p class="eyebrow eyebrow-light">¿Buscas comprar?</p>
             <h2>Hablemos de tu próximo hogar.</h2>
             <p>
-              Solicita el precio, agenda una visita o recibe más información del
-              apartamento.
+              Te compartimos la información y coordinamos una visita por
+              WhatsApp.
             </p>
           </div>
           <div class="contact-actions">
-            <a class="button button-light" href="#contacto-info" data-whatsapp
-              >Solicitar información <span>↗</span></a
+            <a class="button button-light" href="#contacto" data-whatsapp
+              >Escribir por WhatsApp <span>↗</span></a
             >
-            <span class="contact-note">Respuesta directa y personalizada</span>
-          </div>
-        </div>
-      </section>
-
-      <section class="contact-info" id="contacto-info">
-        <div class="container contact-info-grid">
-          <div>
-            <p class="eyebrow">Contacto</p>
-            <h2>Conoce todos los detalles.</h2>
-          </div>
-          <div class="contact-placeholder">
-            <p>
-              Estoy disponible para compartir el precio y coordinar una visita.
-            </p>
-            <a
-              class="button button-primary"
-              href="#contacto-info"
-              data-whatsapp
-            >
-              Escribir por WhatsApp <span>↗</span>
-            </a>
-            <div class="contact-edit-note contact-number">
-              <strong>Contacto directo</strong>
-              <span>WhatsApp: 301 536 0466</span>
-            </div>
           </div>
         </div>
       </section>
@@ -494,29 +278,15 @@
     <footer class="site-footer">
       <div class="container footer-inner">
         <div class="brand footer-brand">
-          <span class="brand-mark">M</span>
-          <span
-            ><strong>Mirador</strong><small>La Julia · Montería</small></span
+          <span class="brand-mark">M</span
+          ><span
+            ><strong>Mirador</strong><small>Propiedades · Montería</small></span
           >
         </div>
-        <p>Apartamento en venta · Conjunto Residencial Mirador de La Julia</p>
+        <p>Propiedades en venta · Montería, Córdoba</p>
         <p>© <span id="current-year"></span> Todos los derechos reservados.</p>
       </div>
     </footer>
-
-    <div
-      class="lightbox"
-      id="lightbox"
-      aria-hidden="true"
-      role="dialog"
-      aria-label="Vista ampliada de la imagen"
-    >
-      <button class="lightbox-close" type="button" aria-label="Cerrar imagen">
-        ×
-      </button>
-      <img id="lightbox-image" src="" alt="" />
-    </div>
-
     <script src="script.js"></script>
   </body>
 </html>
